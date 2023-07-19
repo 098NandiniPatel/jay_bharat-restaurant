@@ -9,6 +9,8 @@ import ContactUs from "./Pages/ContactUs";
 import ScrollToTop from 'react-scroll-to-top';
 import {BsChevronDoubleUp} from 'react-icons/bs'
 import NavBar from './components/header/Navbar';
+import Login from './Pages/Login';
+import Register from './Pages/Register';
 
 
 function App() {
@@ -22,6 +24,9 @@ function App() {
         <Route path="/aboutus" element={<AboutUs />} />
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/contactus" element={<ContactUs />} />
+        <Route path="/login" element={<Login/>} />
+        <Route path="/register" element={<Register/>} />
+
       </Routes>
      
       <Footer />
